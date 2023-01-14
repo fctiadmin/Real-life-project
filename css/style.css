@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-section{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+  padding: 15px 30px;
+}
+.header-section .contact-part ul,.social-part ul{
+    display: inline-flex;
+}
+.header-section .contact-part ul li{
+    padding:0px 10px;
+}
+.header-section .contact-part ul li a i{
+    padding-right:8px;
+}
+.header-section .contact-part ul li a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-section .social-part ul li a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:0px 10px;
+}
+@media(max-width:991px){
+    .header-section{
+        justify-content: center;
+    }
+.social-part{
+    display: none;
+}
+}
+@media(max-width:600px){
+#hide{
+display: none;
+}
+}
